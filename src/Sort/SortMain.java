@@ -18,6 +18,5 @@ public class SortMain {
       } else {
           SortTest.test();
       }
-      //int[] unsorted = new int[]{76,11,-55,2,16,-21,7,88};
     }
 }        

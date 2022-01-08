@@ -33,17 +33,5 @@ public class Sorter {
         System.out.println("-------------------------------------------------");
 
         return sorted;
-
-        //for(int i = 0; i < unsorted.length; i++) {
-        //    for(int j=i+1; j<unsorted.length; j++) {
-        //        if(unsorted[i] > unsorted[j]) {
-        //            int temp = unsorted[i]; 
-        //            unsorted[i]=unsorted[j]; 
-        //            unsorted[j]=temp;
-        //        }
-        //    }
-        //}
-
-        //return unsorted; 
     }
 }

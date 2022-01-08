@@ -5,17 +5,19 @@ public class SortTest {
     public static void test() {
 
         
-        int[] test1 = {-1, -95, 49, 0, 18, 9};
-        int[] test2 = {3, 80, -15, 27, -100};
-        int[] test3 = {104, 0, -294, -153, -24};
-        int[] test4 = {201, -491, 1000, 0, 500};
-        int[] test5 = {5, 35, -34, 33, -31, 0};
+        int[] nums1 = {9, 100, 490, 13, -1,-17};
+        int[] nums2 = {4,456,22,-23,55,345,44,-122};
+        int[] nums3 = {-453,-242,-345,-34513,-11};
+        int[] nums4 = {-435,-456,-676,-40,0};
+        int[] nums5 = {0,2,6,78,2,1,3424};
 
-        Sorter.sort(test1);
-        Sorter.sort(test2);
-        Sorter.sort(test3);
-        Sorter.sort(test4);
-        Sorter.sort(test5);
+        Sorter.sort(nums1);
+        Sorter.sort(nums2);
+        Sorter.sort(nums3);
+        Sorter.sort(nums4);
+        Sorter.sort(nums5);
+        
+        
 
     }
 }
